@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<script>
+safari.application.addEventListener("command", performCommand, false);
+safari.application.addEventListener("validate", validateCommand, false);
+
+function performCommand(event)
+{
+  if (event.command !== "mlkshk")
+  {
+    return;    
+  }
+  var source_url = safari.application.activeBrowserWindow.activeTab.url;
+  var title = safari.application.activeBrowserWindow.activeTab.title;
+  
+  if (source_url == event.userInfo.url) {
+    path_array = source_url.split('/');
+    source_url = path_array[0] + "//" + path_array[2];
+  }
+
+  var newWin = safari.application.openBrowserWindow();
+  var newTab = newWin.activeTab;
+  newTab.url = "http://mlkshk.com/tools/p?url=" + encodeURIComponent(event.userInfo.url) + "&title=" + encodeURIComponent(title) + "&source_url=" + encodeURIComponent(source_url);
+}
+
+function validateCommand(event)
+{
+  if (event.command !== "mlkshk")
+  {
+    return;
+  }
+  if (event.userInfo.name != "IMG") {
+    event.target.disabled = true;
+  }
+  if (!event.userInfo.url) {
+    event.target.disabled = true;
+  }
+  if (event.userInfo.url.substring(0,7) == 'http://' || event.userInfo.url.substring(0,8) == 'https://'){
+      //do nothing
+  } else {
+    event.target.disabled = true;
+  }
+}
+</script>
