@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>7534.51.22</string>
 	<key>CFBundleDisplayName</key>
-	<string>mlkshk</string>
+	<string>mltshp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mlkshk.picker</string>
+	<string>com.mltshp.picker</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,11 +22,11 @@
 		<array>
 			<dict>
 				<key>Command</key>
-				<string>mlkshk</string>
+				<string>mltshp</string>
 				<key>Identifier</key>
-				<string>mlkshk</string>
+				<string>mltshp</string>
 				<key>Title</key>
-				<string>Save This Image on MLKSHK</string>
+				<string>Save This Image on MLTSHP</string>
 			</dict>
 		</array>
 		<key>Global Page</key>
@@ -38,7 +38,7 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>mlkshk.js</string>
+				<string>mltshp.js</string>
 			</array>
 		</dict>
 	</dict>
@@ -57,8 +57,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://mlkshk.com/static/plugins/update.plist</string>
+	<string>http://mltshp.com/static/plugins/update.plist</string>
 	<key>Website</key>
-	<string>http://mlkshk.com/</string>
+	<string>http://mltshp.com/</string>
 </dict>
 </plist>
