@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Andre Torrez</string>
+	<string>Taylor Simpson</string>
 	<key>Builder Version</key>
-	<string>7534.51.22</string>
+	<string>12602.4.8</string>
 	<key>CFBundleDisplayName</key>
 	<string>mltshp</string>
 	<key>CFBundleIdentifier</key>
@@ -38,12 +38,14 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>mltshp.js</string>
+				<string>mlkshk.js</string>
 			</array>
 		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Right-click to save an image in your shake.</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
