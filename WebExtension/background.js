@@ -9,7 +9,7 @@ function getClickHandler() {
             source_url = path_array[0] + "//" + path_array[2];
         }
         chrome.windows.create({
-            "url": "https://mltshp.com/tools/p?url=" + escape(info.srcUrl) + "&source_url=" + escape(source_url),
+            "url": "http://new.mltshp.com/tools/p?url=" + escape(info.srcUrl) + "&source_url=" + escape(source_url),
             "type": 'popup',
             "height": 650,
             "width": 850,
