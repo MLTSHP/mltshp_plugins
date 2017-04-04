@@ -1,6 +1,6 @@
-mltshp = {
+var mltshp = {
 
-    mltshpurl: "http://mltshp.com/tools/p?url=",
+    mltshpurl: "http://new.mltshp.com/tools/p?url=",
 
     init: function() {
         window.removeEventListener("load", mltshp.init, false);
@@ -8,10 +8,12 @@ mltshp = {
     },
 
     Context: function() {
+        var menuitem1;
         menuitem1 = document.getElementById("mltshp-imagen");
         menuitem1.hidden = !gContextMenu.onImage;
     },
     subir: function() {
+        var image_url, source_query, path_array, source_url;
         image_url = gContextMenu.imageURL;
         source_query = "";
 
