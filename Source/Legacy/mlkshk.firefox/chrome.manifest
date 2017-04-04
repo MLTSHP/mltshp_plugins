@@ -1,0 +1,4 @@
+content   mltshp                 chrome/content/
+locale    mltshp   en-US         chrome/locale/en-US/
+
+overlay   chrome://browser/content/browser.xul   chrome://mltshp/content/overlay.xul
