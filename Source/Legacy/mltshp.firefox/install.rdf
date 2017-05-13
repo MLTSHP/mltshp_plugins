@@ -6,7 +6,7 @@
     <em:name>MLTSHP Image Picker (Legacy)</em:name>
     <em:version>1.4</em:version>
     <em:creator>MLTSHP</em:creator>
-    <em:homepageURL>http://mltshp.com</em:homepageURL>
+    <em:homepageURL>https://mltshp.com</em:homepageURL>
 	<em:iconURL>chrome://mltshp/content/icon.png</em:iconURL>
     <em:targetApplication>
       <Description>
