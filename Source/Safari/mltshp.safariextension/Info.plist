@@ -59,8 +59,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://mltshp.com/static/plugins/update.plist</string>
+	<string>https://mltshp.com/static/plugins/update.plist</string>
 	<key>Website</key>
-	<string>http://mltshp.com/</string>
+	<string>https://mltshp.com/</string>
 </dict>
 </plist>

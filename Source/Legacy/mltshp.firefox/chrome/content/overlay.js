@@ -1,6 +1,6 @@
 var mltshp = {
 
-    mltshpurl: "http://new.mltshp.com/tools/p?url=",
+    mltshpurl: "https://mltshp.com/tools/p?url=",
 
     init: function() {
         window.removeEventListener("load", mltshp.init, false);
