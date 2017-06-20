@@ -4,7 +4,7 @@
     <em:id>hello@mltshp.com</em:id>
     <em:type>2</em:type>
     <em:name>MLTSHP Image Picker (Legacy)</em:name>
-    <em:version>1.4</em:version>
+    <em:version>1.5</em:version>
     <em:creator>MLTSHP</em:creator>
     <em:homepageURL>https://mltshp.com</em:homepageURL>
 	<em:iconURL>chrome://mltshp/content/icon.png</em:iconURL>
