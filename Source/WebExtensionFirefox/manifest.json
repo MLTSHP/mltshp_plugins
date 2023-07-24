@@ -3,6 +3,11 @@
     "version": "3.0",
     "manifest_version": 3,
     "description": "Post photos to mltshp.com.",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{13e446e1-2a83-49ff-8cf1-cf2d84896826}"
+        }
+    },
     "action": {
         "default_icon": {
             "16": "icon_16.png",
@@ -30,9 +35,11 @@
         }
     ],
     "background": {
-        "service_worker": "background.js"
+        "scripts": [
+            "background.js"
+        ]
     },
-    "optional_host_permissions": [
+    "host_permissions": [
         "http://*/*",
         "http://*/",
         "https://*/"
