@@ -1,0 +1,7 @@
+A MLTSHP extension for all browsers that support the WebExtension format. Currently this includes:
+- Chrome
+- Opera
+- Firefox
+- Microsoft Edge
+
+Based on https://github.com/torrez/mlkshk.chrome
