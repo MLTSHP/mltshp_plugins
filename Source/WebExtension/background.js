@@ -10,7 +10,7 @@ function getClickHandler() {
         }
         chrome.tabs.sendMessage(tab.id, "getAltText", { frameId: info.frameId }, data => {
             chrome.windows.create({
-                "url": "https://mltshp.com/tools/p?url=" + escape(info.srcUrl) + "&source_url=" + escape(source_url) + '&alt=' + escape(data.alt),
+                "url": "https://mltshp.com/tools/p?url=" + encodeURIComponent(info.srcUrl) + "&source_url=" + encodeURIComponent(source_url) + '&alt=' + encodeURIComponent(data.alt),
                 "type": 'popup',
                 "height": 650,
                 "width": 850,
