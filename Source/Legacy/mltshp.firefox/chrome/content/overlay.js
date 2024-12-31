@@ -25,10 +25,10 @@ var mltshp = {
         }
 
         if (source_url) {
-            source_query = "&source_url=" + escape(source_url);
+            source_query = "&source_url=" + encodeURIComponent(source_url);
         }
 
-        window.open(mltshp.mltshpurl + escape(image_url) + source_query, "Save an image.", "toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes");
+        window.open(mltshp.mltshpurl + encodeURIComponent(image_url) + source_query, "Save an image.", "toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes");
     },
 };
 
